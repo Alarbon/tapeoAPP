@@ -1,15 +1,38 @@
+# Archivos de Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
+.idea/
+.gradle/
+local.properties
+
+# Archivos de sistema
+.DS_Store
+
+# Archivos de build
+/build/
+/captures/
+/.externalNativeBuild/
+/cxx/
+*/build/
+
+# Configuración específica
+/.idea/caches/
+/.idea/libraries/
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+/.idea/inspectionProfiles/
+
+# Archivos generados
+*.apk
+*.ap_
+*.log
+*.kotlin_module
+
+# Firebase config
+google-services.json
+
+# Fastlane (opcional si usas CI/CD)
+fastlane/report.xml
+fastlane/screenshots/
+fastlane/metadata/
