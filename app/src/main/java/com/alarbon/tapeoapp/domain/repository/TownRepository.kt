@@ -1,4 +1,9 @@
-package com.alarbon.tapeoapp.domain.repository;
+package com.alarbon.tapeoapp.domain.repository
 
-class TownRepository {
+import com.alarbon.tapeoapp.domain.model.Town
+import kotlinx.coroutines.flow.Flow
+
+interface TownRepository {
+    fun getTowns(): Flow<List<Town>>
 }
+

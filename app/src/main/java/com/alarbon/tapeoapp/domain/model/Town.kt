@@ -1,4 +1,8 @@
 package com.alarbon.tapeoapp.domain.model
 
-class Town {
-}
+data class Town(
+    val id: Int,
+    val name: String,
+    val description: String? = null,
+    val imageUrl: String? = null
+)
